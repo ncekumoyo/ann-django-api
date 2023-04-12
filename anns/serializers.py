@@ -10,5 +10,5 @@ class AnnSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Ann
-        fields = ["date_created", 'entity_name', 'department_name',
+        fields = ['id', 'date_created', 'entity_name', 'department_name',
                   'title', 'venue', 'start', 'end', 'info', 'poster']
